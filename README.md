@@ -1,1 +1,1 @@
-# Linux-Shell-Script-Tester
+In this code there are basic level linux shell scripts. This program enables you to test yourself with 18 questions. For every correct answers, you get 1 point. At the end your score will be shown to you. If you want you can see shell dictionary to practice. Enjoy!
