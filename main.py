@@ -166,7 +166,7 @@ if test =="y":
         if again == "y":
             quiz_on
         else:
-            request1 = input("Do you want to see the wordlist? Y/n").lower()
+            request1 = input("Do you want to see the wordlist? Y/n ").lower()
             if request1 == "y":
                 quest()
                 break
