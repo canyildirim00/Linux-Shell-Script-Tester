@@ -17,7 +17,7 @@ linux_dict = {"pwd": "pwd shows the path of current working directory",
               "chmod": "chmod used to change the read, write, and execute permissions of files and directories",
               "kill x": "By using kill command, you can terminate programs.",
               "ping x": "ping command lets you to check your connectivity status to a server",
-              "history": "history commands shows command history. In order to clear history, type history -c",
+              "history": "history command shows command history. In order to clear history, type history -c",
               "echo x > y": "echo command writes x into y. In order to keep on writing without losing previous data, >> is used",
               "zip x": "zip compresses files into a zip archive",
               "unzip x.zip": "unzip extracts the zipped files from a zip archive."
