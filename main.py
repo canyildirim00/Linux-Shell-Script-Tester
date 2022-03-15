@@ -166,8 +166,12 @@ if test =="y":
         if again == "y":
             quiz_on
         else:
-            print("Goodbye")
-            quiz_on = False
+            request1 = input("Do you want to see the wordlist? Y/n").lower()
+            if request1 == "y":
+                quest()
+                break
+            else:
+                print("Goodbye.")
 
 
 
@@ -176,7 +180,7 @@ else:
     if commands =="y":
         quest()
     else:
-        request = input("Do you want to see the wordlist? Y/n").lower()
+        request = input("Do you want to see the wordlist? Y/n ").lower()
         if request == "y":
             quest()
         else:
